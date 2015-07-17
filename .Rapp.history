@@ -1,0 +1,563 @@
+a[1]
+quantile$names(quantile)[1]
+factor(a)
+quantile$factor(names(quantile))[1]
+b=factor(A)
+b=factor(a)
+b
+b[1]
+quantile$b[1]
+quantile
+quantile$setosa
+quantile$b[1]
+quantile$setosa
+quantile$virginica
+quantile$versicolor
+quantile$versicolor$outlier
+quantile
+quantile$versicolor
+quantile$outlier
+quantile[["outlier"]]
+quantile[[1]]
+quantile
+quantile[[2]]
+quantile[[]]
+quantile[[,]]
+quantile[[4]]
+quantile[[3]]
+ldply(quantile,rbind)
+ldply(quantile,cbind)
+?ldply
+ldply(quantile,cbind)
+quantile
+quantile$setosa
+quantile$setosa[1]
+a=rnorm(5)
+b=rnorm(b)
+x=cbind(a,b)
+x=rbind(a,b)
+a
+b
+b=rnorm(5)
+x=rbind(a,b)
+ldply(x,rbind)
+ldply(a,b,rbind)
+x=list(a,b)
+x
+ldply(x,rbind)
+ldply(x,cbind)
+a=list(a)
+b=list(b)
+a
+b
+x=list(a,b)
+x
+a=list(a)
+b=rnorm(5)
+a=rnorm(5)
+list(a,b)
+list(a,b)x=list(a=rnorm(5), b=rnorm(5))
+x=list(a=rnorm(5), b=rnorm(5))
+x
+ldply(x,cbind)
+ldply(quantile,cbind)
+ldply(quantile[1],cbind)
+ldply(quantile[[1]],cbind)
+ldply(quantile[[1]],rbind)
+ldply(quantile[[2]],rbind)
+quantie
+quantile
+quantile$versicolor$outlier
+quantile$outlier
+list(quantile)
+a=list(quantile)
+a[1]
+a[[1]]
+quantile
+quantile$setosa$setosa
+quantile$setosa
+list(quantile$setosa,quantile$versicolor,quantile$virginica)
+list(quantile$setosa,quantile$versicolor,quantile$virginica)$outlier
+list(quantile$setosa,quantile$versicolor,quantile$virginica)$[1]
+list(quantile$setosa,quantile$versicolor,quantile$virginica)$[[1]]
+list(quantile$setosa,quantile$versicolor,quantile$virginica)$[[2]]
+list(quantile$setosa,quantile$versicolor,quantile$virginica)
+a=list(quantile$setosa,quantile$versicolor,quantile$virginica)
+a[[1]]
+a[[1]]$outlier
+ldply(x,cbind)
+x
+quantile
+y=list(setosa$outlier, versicolor$outlier, virginica$outlier)
+y=list(quantile$setosa$outlier, quantile$versicolor$outlier, quantile$virginica$outlier)
+y
+ldply(y,rbind)
+names(y)=names(quantile)
+y
+ldply(y,rbind)
+y=list(quantile$setosa$outlier, quantile$versicolor$outlier, quantile$virginica$outlier) length(dataset.split)
+length(dataset.split)
+y=list(quantile$setosa$newData, quantile$versicolor$newData, quantile$virginica$newData) length(dataset.split)
+y=list(quantile$setosa$newData, quantile$versicolor$newData, quantile$virginica$newData)
+ldply(y,rbind)
+y
+names(y)=names(quantile)
+ldply(y,rbind)
+quanrile[1]
+quantile[1]
+quantile[1][1]
+quantile[[1]]
+quantile[[1]][1]
+quantile[[1]][2]
+for(i in 1:length(dataset.split)){#
+                outlier = list(quantile[[i]][1])#
+                }
+outlier
+names(outlier) = names(quantile)#
+                ldply(outlier, rbind)
+for(i in 1:length(dataset.split)){#
+                tmp = quantile[[i]][1]#
+                outlier = list(tmp)#
+                }
+outlier
+outlier = list()
+outlier
+a=rnorm(5)
+b=rnorm(5)
+outlier(a,b)
+outlier=list(a,b)
+outlier
+outlier = list()#
+                for(i in 1:length(dataset.split)){#
+                outlier = outlier[quantile[[i]][1]]#
+                }
+outlier = list()#
+                for(i in 1:length(dataset.split)){#
+                outlier = outlier[[quantile[[i]][1]]]#
+                }
+outlier = list()#
+                for(i in 1:length(dataset.split)){#
+                outlie= outlier[[quantile[[i]][1]]]#
+                }
+outlier
+outlier[[quantile[[1]][1]]]
+o=list(quantile[[1]][1])
+o
+o=list(quantile[[2]][1])
+o
+o[quantile[[1]][1]]
+o[[quantile[[1]][1]]]
+o[i]=quantile[[1]][1]
+o
+o[1]=quantile[[1]][1]
+o[i]=quantile[[2]][1]
+o
+o[2]=quantile[[2]][1]
+o
+for(i in 1:length(dataset.split)){#
+                outlier[i] = quantile[[i]][1]#
+                }
+names(outlier) = names(quantile)#
+                ldply(outlier, rbind)
+data=iris
+data=cbind(iris[,5], iris[1:3])
+head(data)
+write.table(data, "/Users/selcukorkmaz/Desktop/iris.txt", quote=F, row.names=F, sep="\")
+write.table(data, "/Users/selcukorkmaz/Desktop/iris.txt", quote=F, row.names=F, sep="\t")
+data=cbind(iris[,5], iris[1:2])
+write.table(data, "/Users/selcukorkmaz/Desktop/iris.txt", quote=F, row.names=F, sep="\t")
+a=ldply(outlier, rbind)
+head(a)
+names(a)
+names(a)[1]
+names(a)[1]="group"
+head(a)
+names(a)[1]="Group"
+data=iris
+dataset=iris
+dataset.split = split(dataset[,-1], dataset[,1])   ## Split data through 1st column
+dataset=cbind(iris[,5], iris[,-5])
+head(dataset)
+dataset.split = split(dataset[,-1], dataset[,1])   ## Split data through 1st column
+data.split
+dataset.split
+quantile = lapply(dataset.split, function(x)outlier(x, qqplot=FALSE, method="quan"))
+outlier <-#
+function (data, qqplot=TRUE, method = c("quan", "adj.quan","pcout"))#
+{#
+        dataframe=as.data.frame(data)#
+        dname <- deparse(substitute(data))#
+        method <- match.arg(method)#
+        n <- dim(data)[1]#
+        p <- dim(data)[2]#
+        covr <- covMcd(data, alpha = 0.5)#
+        mah <- mahalanobis(data, center = covr$center, cov = covr$cov)#
+        d <- mah#
+        sortMah <- data.frame(sort(mah, decreasing = TRUE)) # sorted Mahalanobis' distances in increasing order#
+        out <-  cbind(round(sortMah,3), NA)#
+        colnames(out) <- c("MD", "Outlier")#
+        if (method=="adj.quan"){#
+            crt <- arw(x=data, m0=covr$center, c0=covr$cov, alpha = 0.025)$cn#
+            for(i in 1:n){#
+                {#
+                if (sortMah[i,] > crt){#
+                    out[i,2] <- "TRUE"#
+                } else#
+                {#
+                    out[i,2] <- "FALSE"#
+                }}#
+            }#
+            if (qqplot){#
+                d <- mah#
+                r <- rank(d)#
+                chi2q <- qchisq((r-0.5)/n,p)#
+                colors = NULL#
+                for (i in 1:n) {#
+                    if (d[i] > crt) colors[i] = "red" else colors[i] = "black"#
+                }#
+                plot(d, chi2q , pch = 16, main = "Adjusted Chi-Square Q-Q Plot",#
+                xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile", col=colors)#
+                abline(v=crt, lwd = 2, col = "blue")#
+                tbl = table(out[,2])#
+                legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+                col=c("red","black"), pch=16, bty="n",)#
+#
+		if (max(d) >= crt) {text(crt-0.2,2,paste("Quantile: ", round(crt,3)),srt=90,pos=3, col="blue")}#
+            }#
+            newData <- out[out$Outlier %in% "FALSE",]#
+            ind <- sort(row.names(newData))#
+            newData <- data[ind,]#
+            result <- list(out, newData)#
+            names(result) <- c("outlier", "newData")#
+        }#
+        if (method=="quan"){#
+            chiSq <- qchisq(0.975, p)#
+#
+            for(i in 1:n){#
+                {#
+                    if (sortMah[i,] > chiSq){#
+                        out[i,2] <- "TRUE"#
+                    } else#
+                    {#
+                        out[i,2] <- "FALSE"#
+                    }}#
+            }#
+            if (qqplot){#
+                d <- mah#
+                r <- rank(d)#
+                chi2q <- qchisq((r-0.5)/n,p)#
+                colors = NULL#
+                for (i in 1:n) {#
+                    if (d[i] > chiSq) colors[i] = "red" else colors[i] = "black"#
+                }#
+                plot(d, chi2q , pch = 16, col=colors, main = "Chi-Square Q-Q Plot",#
+                xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile")#
+                abline(v=chiSq, lwd = 2, col = "red")#
+                tbl = table(out[,2])#
+                legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+                col=c("red","black"), pch=16, bty="n",)#
+		if (max(d) >= chiSq) {text(chiSq-0.2,2,paste("Quantile: ", round(chiSq,3)),srt=90,pos=3, col="red")}#
+            }#
+            newData <- out[out$Outlier %in% "FALSE",]#
+            ind <- sort(row.names(newData))#
+            newData <- data[ind,]#
+            result <- list(out, newData)#
+            names(result) <- c("outlier", "newData")#
+        }#
+          if (method=="pcout"){#
+          colors = NULL#
+          resout <- cbind(1:n, NA)#
+          colnames(resout) <- c("obs", "result")#
+          resout <- as.data.frame(resout)#
+          outpc <- pcout(data, makeplot = FALSE)$wfinal01#
+          for(i in 1:n){#
+              {#
+                  if (outpc[[i]] == 0){#
+                      resout[i,2] <- "TRUE"#
+                      colors[i] = "red"#
+                  } else#
+                  {#
+                      resout[i,2] <- "FALSE"#
+                      colors[i] = "black"#
+                  }}#
+          }#
+          if (qqplot){#
+              d <- mah#
+              r <- rank(d)#
+              chi2q <- qchisq((r-0.5)/n,p)#
+              plot(d, chi2q , pch = 16, main = "Chi-Square Q-Q Plot",#
+              xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile", col=colors)#
+              tbl = table(resout[,2])#
+              legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+              col=c("red","black"), pch=16, bty="n",)#
+          }#
+          newData <- resout[resout$result %in% "FALSE",]#
+          ind <- sort(row.names(newData))#
+          newData <- data[ind,]#
+          result <- list(resout, newData)#
+          names(result) <- c("outlier", "newData")#
+          }#
+    return(result)#
+#
+}
+quantile = lapply(dataset.split, function(x)outlier(x, qqplot=FALSE, method="quan"))
+dataset=cbind(iris[,5], iris[,1:3])
+head(dataset)
+dataset.split = split(dataset[,-1], dataset[,1])   ## Split data through 1st column#
+                quantile = lapply(dataset.split, function(x)outlier(x, qqplot=FALSE, method="quan"))
+quantile
+outlier = list()
+for(i in 1:length(dataset.split)){#
+                    outlier[i] = quantile[[i]][1]#
+                }
+names(outlier) = names(quantile)
+head(outlier)
+o = ldply(outlier, rbind)
+o
+names(o)[1]="Group"#
+                o
+dataset=iris[1:50,1:3]
+o = outlier(dataset, qqplot=FALSE, method="pcout")$outlier
+outlier <-#
+function (data, qqplot=TRUE, method = c("quan", "adj.quan","pcout"))#
+{#
+        dataframe=as.data.frame(data)#
+        dname <- deparse(substitute(data))#
+        method <- match.arg(method)#
+        n <- dim(data)[1]#
+        p <- dim(data)[2]#
+        covr <- covMcd(data, alpha = 0.5)#
+        mah <- mahalanobis(data, center = covr$center, cov = covr$cov)#
+        d <- mah#
+        sortMah <- data.frame(sort(mah, decreasing = TRUE)) # sorted Mahalanobis' distances in increasing order#
+        out <-  cbind(round(sortMah,3), NA)#
+        colnames(out) <- c("MD", "Outlier")#
+        if (method=="adj.quan"){#
+            crt <- arw(x=data, m0=covr$center, c0=covr$cov, alpha = 0.025)$cn#
+            for(i in 1:n){#
+                {#
+                if (sortMah[i,] > crt){#
+                    out[i,2] <- "TRUE"#
+                } else#
+                {#
+                    out[i,2] <- "FALSE"#
+                }}#
+            }#
+            if (qqplot){#
+                d <- mah#
+                r <- rank(d)#
+                chi2q <- qchisq((r-0.5)/n,p)#
+                colors = NULL#
+                for (i in 1:n) {#
+                    if (d[i] > crt) colors[i] = "red" else colors[i] = "black"#
+                }#
+                plot(d, chi2q , pch = 16, main = "Adjusted Chi-Square Q-Q Plot",#
+                xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile", col=colors)#
+                abline(v=crt, lwd = 2, col = "blue")#
+                tbl = table(out[,2])#
+                legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+                col=c("red","black"), pch=16, bty="n",)#
+#
+		if (max(d) >= crt) {text(crt-0.2,2,paste("Quantile: ", round(crt,3)),srt=90,pos=3, col="blue")}#
+            }#
+            newData <- out[out$Outlier %in% "FALSE",]#
+            ind <- sort(row.names(newData))#
+            newData <- data[ind,]#
+            result <- list(out, newData)#
+            names(result) <- c("outlier", "newData")#
+        }#
+        if (method=="quan"){#
+            chiSq <- qchisq(0.975, p)#
+#
+            for(i in 1:n){#
+                {#
+                    if (sortMah[i,] > chiSq){#
+                        out[i,2] <- "TRUE"#
+                    } else#
+                    {#
+                        out[i,2] <- "FALSE"#
+                    }}#
+            }#
+            if (qqplot){#
+                d <- mah#
+                r <- rank(d)#
+                chi2q <- qchisq((r-0.5)/n,p)#
+                colors = NULL#
+                for (i in 1:n) {#
+                    if (d[i] > chiSq) colors[i] = "red" else colors[i] = "black"#
+                }#
+                plot(d, chi2q , pch = 16, col=colors, main = "Chi-Square Q-Q Plot",#
+                xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile")#
+                abline(v=chiSq, lwd = 2, col = "red")#
+                tbl = table(out[,2])#
+                legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+                col=c("red","black"), pch=16, bty="n",)#
+		if (max(d) >= chiSq) {text(chiSq-0.2,2,paste("Quantile: ", round(chiSq,3)),srt=90,pos=3, col="red")}#
+            }#
+            newData <- out[out$Outlier %in% "FALSE",]#
+            ind <- sort(row.names(newData))#
+            newData <- data[ind,]#
+            result <- list(out, newData)#
+            names(result) <- c("outlier", "newData")#
+        }#
+          if (method=="pcout"){#
+          colors = NULL#
+          resout <- cbind(1:n, NA)#
+          colnames(resout) <- c("obs", "result")#
+          resout <- as.data.frame(resout)#
+          outpc <- pcout(data, makeplot = FALSE)$wfinal01#
+          for(i in 1:n){#
+              {#
+                  if (outpc[[i]] == 0){#
+                      resout[i,2] <- "TRUE"#
+                      colors[i] = "red"#
+                  } else#
+                  {#
+                      resout[i,2] <- "FALSE"#
+                      colors[i] = "black"#
+                  }}#
+          }#
+          if (qqplot){#
+              d <- mah#
+              r <- rank(d)#
+              chi2q <- qchisq((r-0.5)/n,p)#
+              plot(d, chi2q , pch = 16, main = "Chi-Square Q-Q Plot",#
+              xlab = "Robust Squared Mahalanobis Distance",ylab="Chi-Square Quantile", col=colors)#
+              tbl = table(resout[,2])#
+              legend("topleft",legend=c(paste("Outliers (n=",if(is.na(tbl[2])) 0 else tbl[2],")",sep=""),paste("Non-outliers (n=",if(is.na(tbl[1])) 0 else tbl[1],")",sep="")),#
+              col=c("red","black"), pch=16, bty="n",)#
+          }#
+          newData <- resout[resout$result %in% "FALSE",]#
+          ind <- sort(row.names(newData))#
+          newData <- data[ind,]#
+          result <- list(resout, newData)#
+          names(result) <- c("outlier", "newData")#
+          }#
+    return(result)#
+#
+}
+o = outlier(dataset, qqplot=FALSE, method="pcout")$outlier
+head(o)
+names(o)=c("sdadada","sdasdasdasd")
+head(o)
+1/(100)^2
+86*27
+52*8
+2322/416
+library(MVN)
+mardiTest(iris)
+mardiaTest(iris)
+mardiaTest(iris[1:50,1:4])
+set.seed(1234)#
+library(MVN)#
+library(copula)#
+library(MASS)#
+n_sim=1000#
+n=c(10,20,30,50,100,200,400,600,800,1000)#
+#n=c(10,20,50,100,200,400,500,600,750,1000)#
+p=c(2:9)#
+#p=c(2,3,4,5,6,7,8,9)#
+power=list()#
+#
+for(z in 1:length(p)){#
+#
+  marg = rep("gamma",p[z])#
+  par = rep(list(list(shape=5,rate=10)),p[z])#
+  x = mvdc(normalCopula(0.1, dim=p[z]), marg, par)#
+  dataN = rMvdc(10000, x)#
+#
+  power[[z]]=as.data.frame(matrix(nrow=length(n),ncol=4))#
+  power[[z]][1]=n#
+  colnames(power[[z]])=c("n","Mardia", "Henze-Zirkler", "Royston")#
+  for(k in 1:length(n)){#
+    m=0#
+    h=0#
+    r=0#
+    for(i in 1:n_sim){#
+      data=dataN[sample(nrow(dataN), n[k], replace=TRUE), ]#
+      mard=mardiaTest(data)#
+      if(n[k]>20){#
+        if((mard@p.value.skew > 0.05) & (mard@p.value.kurt > 0.05)){m=m+1}#
+        else{m=m}#
+      }#
+      if(n[k]<=20){#
+        if((mard@p.value.small > 0.05) & (mard@p.value.kurt > 0.05)){m=m+1}#
+        else{m=m}#
+      }#
+      power_m=100-(m/n_sim)*100#
+      power[[z]][k,2]=power_m#
+      henze=hzTest(data)#
+      if((henze@p.value > 0.05)){h=h+1}#
+      else{h=h}#
+      power_h=100-(h/n_sim)*100#
+      power[[z]][k,3]=power_h#
+      roys=roystonTest(data)#
+      if((roys@p.value > 0.05)){r=r+1}#
+      else{r=r}#
+      power_r=100-(r/n_sim)*100#
+      power[[z]][k,4]=power_r#
+    }#
+  }}#
+names(power)=p#
+power
+?mvrnorm
+Sigma <- matrix(c(10,3,3,2),2,2)#
+Sigma#
+data=mvrnorm(n=1000, rep(0, 2), Sigma)
+cor(data)
+9/(sqrt(10)*sqrt(2))
+3/(sqrt(10)*sqrt(2))
+Sigma <- matrix(c(10,3,3,2),2,2)#
+Sigma#
+data=mvrnorm(n=1000, rep(0, 2), Sigma)
+cor(data)
+Sigma <- matrix(c(1,0.1,0.1,1),2,2)#
+Sigma#
+data=mvrnorm(n=1000, rep(0, 2), Sigma)
+cor(data)
+c=27
+f=43.3*c^0.32
+f
+exp(0.351)
+(32*4)/400
+48/40
+400/(32*4)
+80/48
+library(colorout)
+setwd("~/Dropbox/GSD/Studies/MLViS-debugged/")
+library(shiny)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+vignette("ChemmineR")
+getwd()
+setwd("../Desktop/")
+setwd("~/Desktop/")
+setwd("~/Desktop/MLViS-debugged/")
+runApp()
+runApp()
+runApp()
+library(ggplot2)
+?ggsave
+?gsave
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+setwd("~/Dropbox/GSD/Studies/MLViS-debugged/")
+runApp()
+setwd("/Volumes/SELCUK/MLViS")
+runApp()
+?install_github
+??install_github
+setwd("~/Dropbox/GSD/Studies/MLViS-debugged/")
+runApp()
+runApp()
+??runApp
+runApp()
+runApp()
